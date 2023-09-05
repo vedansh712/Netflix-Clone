@@ -1,0 +1,65 @@
+.titleholder {
+  gap: 0.7rem;
+  position: relative;
+  padding: 0.5rem 0;
+}
+.titleholder h1 {
+  margin-left: 20px;
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.wraper .slider {
+  display: flex;
+  width: max-content;
+  gap: 5rem;
+  transform: translateX(0px);
+  transition: 1s ease-in-out;
+}
+
+.wraper .slider-action {
+  display: flex;
+
+  align-items: center;
+  position: absolute;
+  z-index: 99;
+  height: 100%;
+  top: -0.5rem;
+  bottom: 0;
+  width: 50px;
+  transition: 0.1s ease-in-out;
+}
+
+.wraper .slider-action button {
+  cursor: pointer;
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+}
+
+.wraper .slider-action button svg {
+  font-size: xx-large;
+}
+
+.wraper .slider-action button :hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.wraper .slider-action :hover {
+  top: -0.5rem;
+  height: 21vh;
+  background-color: rgba(0, 0, 0, 0.26);
+}
+
+.left {
+  left: 0;
+  margin-left: 15px;
+}
+.right {
+  right: 0;
+  margin-right: 15px;
+}
+
+.none {
+  display: none;
+}
